@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 * {
   margin: 0;
   padding: 0;
@@ -143,7 +146,6 @@ nav ul li a:hover {
 }
 
 #hero h1::before {
-  content: "—";
   margin-right: 0.5rem;
   color: #f4a261;
 }
@@ -499,6 +501,14 @@ h1 {
   max-width: 1200px;
   margin: 0 auto;
 }
+.project-grid > a {
+  display: none;
+}
+
+.project-grid > a.active {
+  display: block;
+}
+
 
 .project-card {
   background: #2c2c2c;
