@@ -85,6 +85,7 @@ nav ul li a:hover {
 
 /* Hero Section */
 #hero {
+  padding-top: 80px;
   background: url(../images/bg.jpg);
   background-size: cover;
   background-position: center;
@@ -115,7 +116,7 @@ nav ul li a:hover {
   height: 250px;
   margin-bottom: 2rem;
   margin-top: 50px;
-  border-radius: 50%;
+  border-radius: 10%;
   overflow: hidden;
   background: #000000;
   border: 5px solid #f4a261;
